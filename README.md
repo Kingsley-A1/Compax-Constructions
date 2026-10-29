@@ -68,9 +68,9 @@ There are no environment variables, credentials, database migrations or third-pa
 - [x] Root deployment returns HTTP 200.
 - [x] Direct visits to /about, /expertise, /projects, project details, /insights, article details, /contact return HTTP 200.
 - [x] JavaScript source syntax validation completed.
-- [ ] Comprehensive mobile/desktop visual regression tests.
+- [x] Automated browser smoke tests of 18 routes each at 390px, 768px and 1440px; no missing headings, JavaScript errors or horizontal overflow. Pixel-diff regression baseline remains a future enhancement.
 - [ ] Full accessibility audit with screen readers.
-- [ ] Confirm all externally hosted images and fonts resolve in target browsers.
+- [x] All 12 Unsplash image endpoints returned HTTP 200; no broken image elements in the tested home views. Cross-browser font verification remains advisable.
 
 ## Credits
 

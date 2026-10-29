@@ -57,7 +57,7 @@ function ctaBlock() {
 function home() {
  return '<section class="hero"><div class="hero-image" style="background-image:url(\''+media.hero+'\')"></div><div class="hero-overlay"></div>'+
  '<div class="container hero-inner"><div class="hero-copy"><div class="hero-eyebrow"><span class="eyebrow-line"></span> CONSTRUCTION, THOUGHTFULLY CONSIDERED</div>'+
- '<h1>We make room<br><em>for what\'s next.</em></h1><p>Places to belong. Spaces to thrive.<br>Building for the lives that happen in between.</p>'+
+ '<h1>Beyond construction.<br><em>A lasting impact</em></h1><p>Places to belong. Spaces to thrive.<br>Building for the lives that happen in between.</p>'+
  '<div class="hero-actions"><a class="btn btn-light" href="/projects" data-link>Explore our work '+icon("northeast",19)+'</a><a href="/about" data-link class="hero-secondary">Discover our thinking '+icon("arrow",17)+'</a></div></div>'+
  '<div class="hero-bottom"><div class="hero-index"><span>01 / 04</span><span class="hero-progress"><i></i></span><span>THE BIGGER PICTURE</span></div><a class="scroll-cue" href="#welcome">SCROLL TO EXPLORE '+icon("down",16)+'</a></div></div></section>'+
  '<div class="demo-ribbon"><div class="container"><span class="ribbon-star">✳</span><span>AN ORIGINAL CONSTRUCTION EXPERIENCE — A BESPOKE TECHNOLOGIES CONCEPT</span><span class="ribbon-right">CRAFTED TO INSPIRE. NOT A REAL CONTRACTOR.</span></div></div>'+
@@ -138,7 +138,7 @@ function notFound() { return '<section class="not-found"><div class="container">
 function render(scroll=true){
  const path=decodeURI(window.location.pathname).replace(/\/$/,"")||"/";
  let content="",title="",description="";
- if(path==="/"){content=home();title="We make room for what's next.";description="Thoughtfully considered construction. Spaces with purpose. Explore the COMPAX concept website by Bespoke Technologies.";}
+ if(path==="/"){content=home();title="Beyond construction. A lasting impact";description="Thoughtfully considered construction. Spaces with purpose. Explore the COMPAX concept website by Bespoke Technologies.";}
  else if(path==="/about"){content=about();title="Our story";description="Discover a people-first approach to building and the story behind the COMPAX concept.";}
  else if(path==="/expertise"){content=expertise();title="Our expertise";description="Explore construction, infrastructure, design and build, project management and more.";}
  else if(path==="/projects"){content=projectsPage();title="Projects";description="Explore eight richly detailed, illustrative construction concept projects.";}

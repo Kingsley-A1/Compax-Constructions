@@ -387,7 +387,7 @@ h1 em,h2 em,h3 em,.contact-quote em{font-family:var(--serif);font-weight:400;let
  .hero-overlay{background:radial-gradient(ellipse 120% 66% at 22% 42%,rgba(8,22,17,.72) 0%,rgba(8,22,17,.40) 51%,transparent 95%),linear-gradient(0deg,rgba(8,22,17,.35),transparent 27%)}
  .hero-copy{margin-top:4vh}
  .hero-eyebrow,.eyebrow{font-size:10px;gap:10px;letter-spacing:.12em}
- .hero h1{font-size:clamp(59px,12.1vw,86px);margin:23px 0 24px}
+ .hero h1{font-size:clamp(44px,14.8vw,70px);margin:23px 0 24px}
  .hero-copy>p{font-size:15px;line-height:1.65}
  .hero-actions{align-items:flex-start;flex-direction:column;gap:25px}
  .hero-bottom{font-size:9px}

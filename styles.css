@@ -506,4 +506,4 @@ h1 em,h2 em,h3 em,.contact-quote em{font-family:var(--serif);font-weight:400;let
  .reveal{opacity:1;transform:none}
 }
 
-@media(max-width:380px){.footer-top{flex-wrap:wrap;gap:18px}.footer-top>div{width:100%}.round-arrow{margin-left:auto}}
+@media(max-width:380px){.footer-top{flex-wrap:wrap;gap:18px}.footer-top>div{width:100%}.round-arrow{margin-left:auto}.expertise-row{grid-template-columns:36px minmax(0,1fr) 18px;gap:8px}.expertise-body{min-width:0}.expertise-body h3{overflow-wrap:break-word}.expertise-mark svg{width:18px;height:18px}}

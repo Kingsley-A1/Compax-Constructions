@@ -505,3 +505,5 @@ h1 em,h2 em,h3 em,.contact-quote em{font-family:var(--serif);font-weight:400;let
  *,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
  .reveal{opacity:1;transform:none}
 }
+
+@media(max-width:380px){.footer-top{flex-wrap:wrap;gap:18px}.footer-top>div{width:100%}.round-arrow{margin-left:auto}}
